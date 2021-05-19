@@ -9,15 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinCouroutines">
-        <activity android:name=".Lesson2">
-            <intent-filter>
+        <activity android:name=".Lesson3"><intent-filter>
             <action android:name="android.intent.action.MAIN" />
+
             <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-        </activity>
-        <activity android:name=".Lesson1">
+        </intent-filter></activity>
+        <activity android:name=".Lesson2">
 
         </activity>
+        <activity android:name=".Lesson1"></activity>
     </application>
 
 </manifest>
